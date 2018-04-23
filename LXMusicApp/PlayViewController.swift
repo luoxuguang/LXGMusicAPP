@@ -20,8 +20,11 @@ class PlayViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor=UIColor.red
         setUI()
+        
+        loadMusicList()
+        
+        
         
     }
     
@@ -134,6 +137,11 @@ extension PlayViewController{
             addRotationAnim()
         }
     }
+    
+    func loadMusicList() {
+        
+    }
+    
     
     func addRotationAnim() {
         

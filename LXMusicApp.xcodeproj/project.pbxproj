@@ -12,11 +12,14 @@
 		EF34C0191F6FCADB009BCF09 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34C0181F6FCADB009BCF09 /* PlayViewController.swift */; };
 		EF34C01C1F6FCADB009BCF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34C01A1F6FCADB009BCF09 /* Main.storyboard */; };
 		EF34C0211F6FCADB009BCF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF34C01F1F6FCADB009BCF09 /* LaunchScreen.storyboard */; };
+		EF42C598208D801F001892E3 /* LrcLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42C597208D801F001892E3 /* LrcLineModel.swift */; };
+		EF42C59A208DACE4001892E3 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42C599208DACE4001892E3 /* MusicListViewModel.swift */; };
+		EF42C59C208DACF9001892E3 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42C59B208DACF9001892E3 /* MusicViewModel.swift */; };
+		EF42C59E208DAD2F001892E3 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42C59D208DAD2F001892E3 /* MusicModel.swift */; };
 		EF96EC51208445380009BB74 /* MusicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF96EC50208445380009BB74 /* MusicTools.swift */; };
 		EF96EC53208869AD0009BB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF96EC52208869AD0009BB74 /* Assets.xcassets */; };
 		EF96EC562089CE210009BB74 /* CALayer-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF96EC552089CE210009BB74 /* CALayer-Extension.swift */; };
 		EF96EC582089D33F0009BB74 /* LrcSrcollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF96EC572089D33F0009BB74 /* LrcSrcollView.swift */; };
-		EF96EC5A2089EE1F0009BB74 /* LrcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF96EC592089EE1F0009BB74 /* LrcCell.swift */; };
 		EF96EC5C2089EE7F0009BB74 /* LrcViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF96EC5B2089EE7F0009BB74 /* LrcViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +33,14 @@
 		EF34C01B1F6FCADB009BCF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF34C0201F6FCADB009BCF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF34C0221F6FCADB009BCF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF42C597208D801F001892E3 /* LrcLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LrcLineModel.swift; sourceTree = "<group>"; };
+		EF42C599208DACE4001892E3 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		EF42C59B208DACF9001892E3 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		EF42C59D208DAD2F001892E3 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
 		EF96EC50208445380009BB74 /* MusicTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTools.swift; sourceTree = "<group>"; };
 		EF96EC52208869AD0009BB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/QQYinLeXiangXiZhuShiBan/Ios项目forQQ音乐/Ios项目forQQ音乐/Assets.xcassets"; sourceTree = "<group>"; };
 		EF96EC552089CE210009BB74 /* CALayer-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer-Extension.swift"; sourceTree = "<group>"; };
 		EF96EC572089D33F0009BB74 /* LrcSrcollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LrcSrcollView.swift; sourceTree = "<group>"; };
-		EF96EC592089EE1F0009BB74 /* LrcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LrcCell.swift; sourceTree = "<group>"; };
 		EF96EC5B2089EE7F0009BB74 /* LrcViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LrcViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +98,11 @@
 				EF34C0161F6FCADB009BCF09 /* AppDelegate.swift */,
 				EF34C0181F6FCADB009BCF09 /* PlayViewController.swift */,
 				EF96EC572089D33F0009BB74 /* LrcSrcollView.swift */,
-				EF96EC592089EE1F0009BB74 /* LrcCell.swift */,
 				EF96EC5B2089EE7F0009BB74 /* LrcViewCell.swift */,
+				EF42C597208D801F001892E3 /* LrcLineModel.swift */,
+				EF42C599208DACE4001892E3 /* MusicListViewModel.swift */,
+				EF42C59B208DACF9001892E3 /* MusicViewModel.swift */,
+				EF42C59D208DAD2F001892E3 /* MusicModel.swift */,
 				EF96EC50208445380009BB74 /* MusicTools.swift */,
 				EF34C01A1F6FCADB009BCF09 /* Main.storyboard */,
 				EF96EC52208869AD0009BB74 /* Assets.xcassets */,
@@ -141,12 +150,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Lance;
 				TargetAttributes = {
 					EF34C0121F6FCADB009BCF09 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = X2457Y92ZW;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -242,11 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF34C0191F6FCADB009BCF09 /* PlayViewController.swift in Sources */,
+				EF42C598208D801F001892E3 /* LrcLineModel.swift in Sources */,
 				EF96EC582089D33F0009BB74 /* LrcSrcollView.swift in Sources */,
+				EF42C59E208DAD2F001892E3 /* MusicModel.swift in Sources */,
+				EF42C59C208DACF9001892E3 /* MusicViewModel.swift in Sources */,
 				EF96EC562089CE210009BB74 /* CALayer-Extension.swift in Sources */,
+				EF42C59A208DACE4001892E3 /* MusicListViewModel.swift in Sources */,
 				EF96EC51208445380009BB74 /* MusicTools.swift in Sources */,
 				EF34C0171F6FCADB009BCF09 /* AppDelegate.swift in Sources */,
-				EF96EC5A2089EE1F0009BB74 /* LrcCell.swift in Sources */,
 				EF96EC5C2089EE7F0009BB74 /* LrcViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,15 +296,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -333,15 +354,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,7 +405,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeeman.daka.LXMusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -390,7 +420,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yeeman.daka.LXMusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

@@ -10,15 +10,27 @@ import UIKit
 
 class LrcViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    lazy var lrclabel: UILabel = {
+        let lable = UILabel()
+        lable.textColor = UIColor.red
+        lable.textAlignment = .center
+        lable.font = UIFont.systemFont(ofSize: 14.0)
+        return lable
+    }()
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.addSubview(lrclabel)
+        selectionStyle = .none
+        backgroundColor = UIColor.clear
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    override func layoutSubviews() {
+        lrclabel.center = contentView.center
+        lrclabel.sizeToFit()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("none implemented")
     }
 
 }
