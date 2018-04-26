@@ -12,9 +12,9 @@ class LrcViewCell: UITableViewCell {
 
     lazy var lrclabel: UILabel = {
         let lable = UILabel()
-        lable.textColor = UIColor.red
         lable.textAlignment = .center
-        lable.font = UIFont.systemFont(ofSize: 14.0)
+        lable.font = UIFont.systemFont(ofSize: 15.0)
+        
         return lable
     }()
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -25,8 +25,8 @@ class LrcViewCell: UITableViewCell {
     }
     
     override func layoutSubviews() {
-        lrclabel.center = contentView.center
         lrclabel.sizeToFit()
+        lrclabel.center = contentView.center
     }
     
     required init?(coder aDecoder: NSCoder) {
